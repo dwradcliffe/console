@@ -24,6 +24,7 @@ export function NameField<
     <TextField
       validate={(name) => validateName(name, label, required)}
       required={required}
+      autoComplete="off"
       label={label}
       name={name}
       {...textFieldProps}
